@@ -1,0 +1,23 @@
+*{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.container{
+    height: 400px;
+    background: #86f;
+    padding: 30px;
+}
+.caja{
+    background: #025;
+    height: 100px;
+    width: 100px;
+    /* a que propiedad le daremos la transicion */
+    transition-property: background;
+    /* que duracion tendra la transicion */
+    transition-duration: 1s;
+    /* esto hara que la transicion tarde en accionar */
+    transition-delay: 3s;
+}
+.caja:hover{
+    background: green;
+}
